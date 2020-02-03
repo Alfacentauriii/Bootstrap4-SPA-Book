@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>BOOTSTRAP WEBSITE</title>
+      <meta name="description" content="Plantilla BOOTSTRAP 4 Single Page">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="author" content="Noelia MH">
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+      <!-- FontAwesome -->
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+      <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+      <!--Custom CSS -->
+      <link rel="stylesheet" href="css/main.css">
+   </head>
+   <body>
+
+     <!-- Return to Top FLECHA PARA VOLVER AL INICIO-->
+     <a href="#inicio" id="return-to-top"><i class="btn fas fa-angle-up fa-3x"></i></a>
+
+      <!-- NAV -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+         <div class="container">
+            <a class="navbar-brand" href="#">
+            <img src="img/logo.png" alt="Isaac Asimov logo" class="w-5">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+               <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active">
+                     <a class="nav-link" href="#inicio">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#caracteristicas">Característica</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#equipo">Equipo</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#contacto">Contacto</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+
+      <!-- Header -->
+      <header class="main-header" id="inicio">
+         <div class="background-overlay text-white p-5">
+            <div class="container">
+               <div class="row mt-5">
+                  <div class="col-md-6 text-center justify-content-center align-self-center">
+                     <h1>Título</h1>
+                     <p>Lollipop pastry cake pudding. Ice cream chocolate cake pastry powder brownie sweet roll sweet roll marzipan tart. Tart chocolate pie marshmallow.</p>
+                     <a href="#caracteristicas" class="btn btn-outline-secondary btn-lg text-white">
+                     Leer más
+                     </a>
+                  </div>
+                  <div class="col-md-6">
+                     <img src="img/product.jpg" alt="imagen del producto" class="img-fluid mx-auto d-block m-5">
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      <!-- Newsletter -->
+      <section class="bg-dark text-white py-5">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-4 pb-3">
+                  <input type="text" name="nombre" class="form-control form-control-lg" placeholder="Nombre">
+               </div>
+               <div class="col-md-4 pb-3">
+                  <input type="email" name="email" class="form-control form-control-lg" placeholder="E-Mail">
+               </div>
+               <div class="col-md-4 pb-3">
+                  <button type="button" name="button" class="btn btn-primary btn-lg btn-block">Suscríbete</button>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Características -->
+      <section class="py-5" id="caracteristicas">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-3">
+                  <div class="card text-center border-primary">
+                     <div class="card-body">
+                        <h3 class="">Característica 1</h3>
+                        <p>Lollipop pastry cake pudding. Ice cream chocolate cake</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-3">
+                  <div class="card text-center bg-primary text-white">
+                     <div class="card-body">
+                        <h3 class="">Característica 2</h3>
+                        <p>Lollipop pastry cake pudding. Ice cream chocolate cake</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-3">
+                  <div class="card text-center border-primary">
+                     <div class="card-body">
+                        <h3 class="">Característica 3</h3>
+                        <p>Lollipop pastry cake pudding. Ice cream chocolate cake</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-3">
+                  <div class="card text-center bg-primary text-white">
+                     <div class="card-body">
+                        <h3 class="">Característica 4</h3>
+                        <p>Lollipop pastry cake pudding. Ice cream chocolate cake</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Producto -->
+      <section class="bg-light text-center">
+         <div class="container">
+            <div class="row">
+               <div class="m-5">
+                  <h3>Nuestro producto</h3>
+                  <p>Lollipop pastry cake pudding. Ice cream chocolate cake Lollipop pastry cake pudding. Ice cream chocolate cake Lollipop pastry cake pudding. Ice cream chocolate cake Lollipop pastry cake pudding. Ice cream chocolate cake</p>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Preguntas Frecuentes - accordeon (collapse)-->
+      <section id="preguntas">
+         <div class="container text-center p-5">
+            <div class="row">
+               <div class="accordion col-md-12" id="accordionExample">
+                  <div class="card">
+                     <div class="card-header" id="headingOne">
+                        <h5 class="mb-0">
+                           <a class="card-link" data-toggle="collapse" href="#collapseOne">Pregunta #1</a>
+                        </h5>
+                     </div>
+                     <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                        <div class="card-body">
+                           Gummi bears lemon drops carrot cake gummi bears marzipan gummi bears gummi bears topping. Oat cake tootsie roll sugar plum wafer chocolate cake jelly beans topping chupa chups. Jujubes liquorice halvah gummies carrot cake. Soufflé pudding candy canes croissant cake powder gummies.
+                        </div>
+                     </div>
+                  </div>
+                  <div class="card">
+                     <div class="card-header" id="headingTwo">
+                        <h5 class="mb-0">
+                          <a class="card-link" data-toggle="collapse" href="#collapseTwo">Pregunta #2</a>
+                        </h5>
+                     </div>
+                     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                        <div class="card-body">
+                           Gummi bears lemon drops carrot cake gummi bears marzipan gummi bears gummi bears topping. Oat cake tootsie roll sugar plum wafer chocolate cake jelly beans topping chupa chups. Jujubes liquorice halvah gummies carrot cake. Soufflé pudding candy canes croissant cake powder gummies.
+                        </div>
+                     </div>
+                  </div>
+                  <div class="card">
+                     <div class="card-header" id="headingThree">
+                        <h5 class="mb-0">
+                           <a class="card-link" data-toggle="collapse" href="#collapseThree">Pregunta #3</a>
+                        </h5>
+                     </div>
+                     <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                        <div class="card-body">
+                           Gummi bears lemon drops carrot cake gummi bears marzipan gummi bears gummi bears topping. Oat cake tootsie roll sugar plum wafer chocolate cake jelly beans topping chupa chups. Jujubes liquorice halvah gummies carrot cake. Soufflé pudding candy canes croissant cake powder gummies.
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Equipo -->
+      <section class="team text-center" id="equipo">
+         <div class="container p-5">
+            <h1 class="text-white">Equipo</h1>
+            <p class="text-white">Gummi bears lemon drops carrot cake gummi bears marzipan gummi bears</p>
+            <div class="row">
+               <!-- Miembros del equipo  -->
+               <div class="col-lg-3 pb-5">
+                  <div class="card">
+                     <div class="card-body">
+                        <img src="img/person.png" class="img-fluid rounded-circle w-50" alt="miembro del equipo 1">
+                        <h3>Deanna Troy</h3>
+                        <p>Gummi bears lemon drops carrot cake gummi bears marzipan gummi bears</p>
+                        <div class="d-flex flex-row justify-content-center">
+                           <div class="p-4">
+                              <a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                           </div>
+                           <div class="p-4">
+                              <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter-square"></i></a>
+                           </div>
+                           <div class="p-4">
+                              <a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- Miembro 2 -->
+               <div class="col-lg-3">
+                  <div class="card">
+                     <div class="card-body">
+                        <img src="img/person.png" class="img-fluid rounded-circle w-50" alt="miembro del equipo 1">
+                        <h3>Geordi</h3>
+                        <p>Gummi bears lemon drops carrot cake gummi bears marzipan gummi bears</p>
+                        <div class="d-flex flex-row justify-content-center">
+                           <div class="p-4">
+                              <a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                           </div>
+                           <div class="p-4">
+                              <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter-square"></i></a>
+                           </div>
+                           <div class="p-4">
+                              <a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- Miembro 3  -->
+               <div class="col-lg-3">
+                  <div class="card">
+                     <div class="card-body">
+                        <img src="img/person.png" class="img-fluid rounded-circle w-50" alt="miembro del equipo 1">
+                        <h3>J. Kirk</h3>
+                        <p>Gummi bears lemon drops carrot cake gummi bears marzipan gummi bears</p>
+                        <div class="d-flex flex-row justify-content-center">
+                           <div class="p-4">
+                              <a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                           </div>
+                           <div class="p-4">
+                              <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter-square"></i></a>
+                           </div>
+                           <div class="p-4">
+                              <a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- Miembro 4 -->
+               <div class="col-lg-3">
+                  <div class="card">
+                     <div class="card-body">
+                        <img src="img/person.png" class="img-fluid rounded-circle w-50" alt="miembro del equipo 1">
+                        <h3>Picard</h3>
+                        <p>Gummi bears lemon drops carrot cake gummi bears marzipan gummi bears</p>
+                        <div class="d-flex flex-row justify-content-center">
+                           <div class="p-4">
+                              <a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                           </div>
+                           <div class="p-4">
+                              <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter-square"></i></a>
+                           </div>
+                           <div class="p-4">
+                              <a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Contacto -->
+      <section class="bg-light py-5" id="contacto">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-6">
+                  <h3>Contacto</h3>
+                  <p>Gummi bears lemon drops carrot cake gummi bears</p>
+                  <form class="" action="index.html" method="post">
+                     <!-- Nombre -->
+                     <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                           <i class="fas fa-user input-group-text"></i>
+                        </div>
+                        <input type="text" class="form-control" name="nombre" placeholder="Nombre">
+                     </div>
+                     <!-- E-mail -->
+                     <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                           <i class="fas fa-at input-group-text"></i>
+                        </div>
+                        <input type="email" class="form-control" name="email" placeholder="E-mail">
+                     </div>
+                     <!-- textarea -->
+                     <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                           <i class="fas fa-pencil-alt input-group-text"></i>
+                        </div>
+                        <textarea name="texto" placeholder="Escribe tu mensaje" rows="10" cols="30" class="form-control"></textarea>
+                     </div>
+                     <button type="button" name="enviar" class="btn btn-primary btn-lg btn-block">Enviar</button>
+                  </form>
+               </div>
+               <!-- Mapa -->
+               <div class="col-lg-6 align-self-center pt-5">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2993.125994129483!2d2.1616273152961347!3d41.393070079263694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a292db1adc9d%3A0x8c42d20977c383a6!2sPaseo+de+Gracia%2C+Barcelona!5e0!3m2!1ses!2ses!4v1536739456413" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Footer -->
+      <footer>
+         <div class="container p-3 text-white text-center">
+            Noelia MH<p>Copyright &copy; 2018</p>
+         </div>
+      </footer>
+
+      <!-- SCROLL REVEAL  -->
+      <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+      <!-- Bootstrap JS - JQuery - Popper -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+      <!-- SCRIPTS -->
+      <script type="text/javascript" src="js/main.js"></script>
+   </body>
+</html>
